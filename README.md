@@ -42,6 +42,12 @@ npm start
 
 A GraphiQL instance will be opened at http://localhost:8080/ (or similar; the actual port number will be printed to the console) to explore the API.
 
+# Running in Docker
+```sh
+docker build -t swapi-graphql .
+docker run -d -p 8060:5001 swapi-graphql
+```
+
 # Contributing to this repo
 
 This repository is managed by EasyCLA. Project participants must sign the free ([GraphQL Specification Membership agreement](https://preview-spec-membership.graphql.org) before making a contribution. You only need to do this one time, and it can be signed by [individual contributors](http://individual-spec-membership.graphql.org/) or their [employers](http://corporate-spec-membership.graphql.org/).
